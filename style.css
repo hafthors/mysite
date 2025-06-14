@@ -1,13 +1,13 @@
 body{
-    background-color: blue;
+    background-color: lightyellow;
 }
 
 h1{
-  color: rgb(62, 129, 82);
+  color: lightgreen;;
    text-align: center;
 }
 
 p{
-  color: yellow;
+  color: green;
   text-align: center;
 }
