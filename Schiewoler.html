@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Informations</title>
+
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+<br>
+
+<br>
+<h1>INSPIRED FROM EINSTEIN?</h1>
+<body>
+<br>
+<img id="myImage" onclick="changeImage()" src="pic_bulboff.gif" width="100" height="180">
+
+
+<script>
+function changeImage() {
+  var image = document.getElementById('myImage');
+  if (image.src.match("bulbon")) {
+    image.src = "pic_bulboff.gif";
+  } else {
+    image.src = "pic_bulbon.gif";
+  }
+}
+</script>
+<br>
+<p>Please click the light bulb to turn on/off the light.</p>
+<p>Don't worry if the light doesn't turn on - it has nothing to do with your inabilities. You are a very bright person!<p>
+
+<br>
+ <h1><b>When to visit;</b></h1>
+
+
+<p>Opening Hours: The Einstein House is typically open from April to October, on Saturdays, Sundays, and public holidays, from 10:00 AM to 6:00 PM. 
+  Guided tours usually start on the hour.
+Tours: While the rooms are largely empty, you can often take a guided tour that provides details about Einstein's life in the house, 
+the architecture, and its history.
+Exhibitions: There's also a permanent exhibition on <b>"Einstein's Sommer-Idyll in Caputh" at the Caputh Bürgerhaus/community center (it's in the center of Caputh opposite
+  the Palast and aside and by the beautiful church of Caputh</b> which offers more context about 
+Einstein's life, work, and the history of the house, with models, photos and documents.</p>
+<p>Here you can zoom in and out and find the route from your place to Einstein</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38988.700233532865!2d12.988061150465015!3d52.3560256539724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+1s0x47a8f48cee9f6637%3A0x9fef8d5e7ee433bf!2sThe%20Einstein%20Summerhouse!5e0!3m2!1sen!2sde!4v1750156798626!5m2!1sen!2sde" width="250" height="250" style="border:0;"
+allowfullscreen="" loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  </body>
+  </html>
+
